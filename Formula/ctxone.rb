@@ -9,7 +9,7 @@ class Ctxone < Formula
   on_macos do
     on_arm do
       url "https://github.com/ctxone/ctxone-docs/releases/download/v0.76.0/ctxone-v0.76.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a1e60c3a8a314c4330f8aa72cff869cb5c9d92624aa98d4b64af1b2e6dfef222"
+      sha256 "b162f444476a24338c9de14b5a6c5d3ac6f146bad119eba01420421e898d738a"
     end
     on_intel do
       url "https://github.com/ctxone/ctxone-docs/releases/download/v0.76.0/ctxone-v0.76.0-x86_64-apple-darwin.tar.gz"
