@@ -3,27 +3,27 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/ctxone/ctxone"
-  version "0.76.0"
+  version "0.9.11"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.76.0/ctxone-v0.76.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b162f444476a24338c9de14b5a6c5d3ac6f146bad119eba01420421e898d738a"
+      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.9.11/ctxone-v0.9.11-aarch64-apple-darwin.tar.gz"
+      sha256 "f20b5a2f65f01bfe07cfa4fd237e85c8f22cabf6c177146d1b000b1ddbf9137f"
     end
     on_intel do
-      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.76.0/ctxone-v0.76.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5370802d7f6c28863d3b31cd2f993220d9771e219c1b1cb322896632013ef9e0"
+      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.9.11/ctxone-v0.9.11-x86_64-apple-darwin.tar.gz"
+      sha256 "pending"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.76.0/ctxone-v0.76.0-x86_64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.9.11/ctxone-v0.9.11-x86_64-unknown-linux-gnu.tar.gz"
       sha256 "pending"
     end
     on_arm do
-      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.76.0/ctxone-v0.76.0-aarch64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.9.11/ctxone-v0.9.11-aarch64-unknown-linux-gnu.tar.gz"
       sha256 "pending"
     end
   end
