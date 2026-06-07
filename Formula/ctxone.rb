@@ -20,11 +20,11 @@ class Ctxone < Formula
   on_linux do
     on_intel do
       url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "pending"
+      sha256 ""
     end
     on_arm do
       url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "pending"
+      sha256 ""
     end
   end
 
