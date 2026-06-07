@@ -8,22 +8,22 @@ class Ctxone < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.9.11/ctxone-v0.9.11-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-aarch64-apple-darwin.tar.gz"
       sha256 "f20b5a2f65f01bfe07cfa4fd237e85c8f22cabf6c177146d1b000b1ddbf9137f"
     end
     on_intel do
-      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.9.11/ctxone-v0.9.11-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-x86_64-apple-darwin.tar.gz"
       sha256 "pending"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.9.11/ctxone-v0.9.11-x86_64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-x86_64-unknown-linux-gnu.tar.gz"
       sha256 "pending"
     end
     on_arm do
-      url "https://github.com/ctxone/ctxone-docs/releases/download/v0.9.11/ctxone-v0.9.11-aarch64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-aarch64-unknown-linux-gnu.tar.gz"
       sha256 "pending"
     end
   end
