@@ -13,7 +13,7 @@ class Ctxone < Formula
     end
     on_intel do
       url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-x86_64-apple-darwin.tar.gz"
-      sha256 "pending"
+      sha256 "95d2384c54ee7c10d91f9832f18d57d773807440f86fb21b1a31397c47d323d0"
     end
   end
 
