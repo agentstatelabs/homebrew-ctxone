@@ -2,7 +2,7 @@
 
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
-  homepage "https://github.com/ctxone/ctxone"
+  homepage "https://github.com/agentstatelabs/ctxone"
   version "0.9.14"
   license "BUSL-1.1"
 
