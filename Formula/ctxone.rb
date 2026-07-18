@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/ctxone/ctxone"
-  version "0.9.11"
+  version "0.9.14"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-aarch64-apple-darwin.tar.gz"
-      sha256 "65e370f54dcf0392e4ea565dd147b4faee0df26ef45803e6bb3352fcc0564f87"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.14/ctxone-v0.9.14-aarch64-apple-darwin.tar.gz"
+      sha256 "7a8b987f7e7b0de0d42629269765a3c44aee3d0b7e43e0af403d0ecf3a8ef084"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-x86_64-apple-darwin.tar.gz"
-      sha256 "95d2384c54ee7c10d91f9832f18d57d773807440f86fb21b1a31397c47d323d0"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.14/ctxone-v0.9.14-x86_64-apple-darwin.tar.gz"
+      sha256 "e718b70b7677061c3d6ff86f28c3e95694e526d7d9427fb88a9dece1dfe17c29"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "384c4b9e8770ffcd4202aacebbd0594a6e6118fb1340ce93e47b511bd57456b1"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.14/ctxone-v0.9.14-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f9a8da67124eccdb331e6902943748865cc75cfc3d9ea5abd8137a49462d551a"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.11/ctxone-v0.9.11-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1335beccb1d407deeffeb77e478acc2e29e1fe856cdc061e081e73fac2752209"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.14/ctxone-v0.9.14-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9c4bb8a5c12f3dadfd4b7ec1e8051f0d321e74ab250afd5157f57159f577218a"
     end
   end
 
