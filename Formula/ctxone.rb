@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "0.9.14"
+  version "0.9.15"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.14/ctxone-v0.9.14-aarch64-apple-darwin.tar.gz"
-      sha256 "7a8b987f7e7b0de0d42629269765a3c44aee3d0b7e43e0af403d0ecf3a8ef084"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.15/ctxone-v0.9.15-aarch64-apple-darwin.tar.gz"
+      sha256 "406e7c4a0d16e6634a0f2e851ed80497feb194aa44806bddcc1059ffc7b5fbc5"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.14/ctxone-v0.9.14-x86_64-apple-darwin.tar.gz"
-      sha256 "e718b70b7677061c3d6ff86f28c3e95694e526d7d9427fb88a9dece1dfe17c29"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.15/ctxone-v0.9.15-x86_64-apple-darwin.tar.gz"
+      sha256 "5839af349982f6e3e528ad9b13740c45c322b6e350ee6606357c572971d5da3e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.14/ctxone-v0.9.14-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f9a8da67124eccdb331e6902943748865cc75cfc3d9ea5abd8137a49462d551a"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.15/ctxone-v0.9.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b5865a9a21c7a2d9a4a81235312923ea311da01bb5786a99d88ed6b5165858ad"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.14/ctxone-v0.9.14-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9c4bb8a5c12f3dadfd4b7ec1e8051f0d321e74ab250afd5157f57159f577218a"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.15/ctxone-v0.9.15-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "95a9668fb67446b18c381f1ab673142951b214c57b3b883ea33063350f3aab7d"
     end
   end
 
