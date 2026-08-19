@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "0.9.39"
+  version "0.9.40"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.39/ctxone-v0.9.39-aarch64-apple-darwin.tar.gz"
-      sha256 "08115f381d85e52f8db794a1e464b5fb7a38b8e2a5e461870c7f06ab5494b47a"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.40/ctxone-v0.9.40-aarch64-apple-darwin.tar.gz"
+      sha256 "1693dc2e6e22b0c2be69ac5e3a62d4f004d3e88ee5fb7136bfcbd4848f52c557"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.39/ctxone-v0.9.39-x86_64-apple-darwin.tar.gz"
-      sha256 "24f93a6a4e0cfdc01b42cfdb77a01970164aa10e7b271134dde32eaa8a0671dd"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.40/ctxone-v0.9.40-x86_64-apple-darwin.tar.gz"
+      sha256 "a52e0fb02b4262acc19e35cec61d7c0140c1572629df88f1b7c415aa949b2556"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.39/ctxone-v0.9.39-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4b206dddd2884d139f8d1f5234d2576d77d6c89abd20911fa3a6610c180a3bd9"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.40/ctxone-v0.9.40-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d5df06ede729e5c6ade7d5336bc88194e17643183a7ca214b7f405b8b96066f9"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.39/ctxone-v0.9.39-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "98e9243eef9dfec0f1157f86dfaf71eeb60a026615c0e5bed3aeb00f7fd7ffc3"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.40/ctxone-v0.9.40-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5be4646f02c054d4c5c732af2a127ebc2026c67f20516b281574f20161f9998a"
     end
   end
 
