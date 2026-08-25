@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.0.6"
+  version "1.0.7"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.6/ctxone-v1.0.6-aarch64-apple-darwin.tar.gz"
-      sha256 "b8bbfc9c48e2f4fe7f1c0ef302a8f2558d96b17c48512fa77aec82f2bceeadab"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.7/ctxone-v1.0.7-aarch64-apple-darwin.tar.gz"
+      sha256 "5e52d83b74ddea1281f13556de1f76f32f6a81721a725402167810e01936e234"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.6/ctxone-v1.0.6-x86_64-apple-darwin.tar.gz"
-      sha256 "412d40929e0f1eb42edeadb4c71c1df6ef1e0a8f1de077948c350c353e41c778"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.7/ctxone-v1.0.7-x86_64-apple-darwin.tar.gz"
+      sha256 "fba01fdae7d9f0822c17af1db53bf9033d0315504dd60618124c4dd2782b174d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.6/ctxone-v1.0.6-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a2febb957902a5382bb835fe603d9586ff557df5049ca6391bbd264793d5f92d"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.7/ctxone-v1.0.7-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cd7f2bc69606e05369243acba0bb9c0a1c095ad8f2f1b251592d677fd74c43e5"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.6/ctxone-v1.0.6-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b1df8fdf60d96969641e4ce89a77cd48cf356d3b8a8e0c440d806e139f0bb022"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.7/ctxone-v1.0.7-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "71b73efb3d332d8da961a300700743c91859f497a9250927f893994368d7de9c"
     end
   end
 
