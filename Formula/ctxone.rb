@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.0.2"
+  version "1.0.4"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.2/ctxone-v1.0.2-aarch64-apple-darwin.tar.gz"
-      sha256 "9340f6abf3821c458509717f66f602d5c3bb84166e243f8af658d5e7adac4167"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.4/ctxone-v1.0.4-aarch64-apple-darwin.tar.gz"
+      sha256 "74ad4f917483e4a31b738c7af56e000e0dfeea266977d3f8712b99c7ba83f7b7"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.2/ctxone-v1.0.2-x86_64-apple-darwin.tar.gz"
-      sha256 "ac1c9e8dd72a612f1336bf26ef361cb24065704f5d50083e70bcdc24a2e89777"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.4/ctxone-v1.0.4-x86_64-apple-darwin.tar.gz"
+      sha256 "5eaad28a7b06eef426addd64f3eeac4710c6b2d2df15d66f61e1f2dde83269c7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.2/ctxone-v1.0.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "db876202a2d19baa971bb97b0caab36b90a5018a29140dff04b2feb25ba212ea"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.4/ctxone-v1.0.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2a60b8a8b4d0f42eb6cc62cdf918980179362f5ccc4263eab22b602bc93e0f6f"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.2/ctxone-v1.0.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9df4cc5743c5822a8f359301fdf3c5ed55e24b5f1568e226f552d541d3d18ba0"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.4/ctxone-v1.0.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d39d32408bdd5af48c23ca8e8a3c8b9586773c1e64dbd18b73fc62e80fe3e0b1"
     end
   end
 
