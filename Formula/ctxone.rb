@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "0.9.47"
+  version "1.0.1"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.47/ctxone-v0.9.47-aarch64-apple-darwin.tar.gz"
-      sha256 "1a21640c779e23b29d5742beaeda37f25e0855f3119096e236cd4105405aaf9d"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.1/ctxone-v1.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a20c35328574bba771a736dbcf41d34c1a0770fe21c339d5fe86fb65fd352f57"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.47/ctxone-v0.9.47-x86_64-apple-darwin.tar.gz"
-      sha256 "f878d2ce9b32f8ec3c29fa4ebf85ae49f160f3f6efa4475a969b506b40f452e5"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.1/ctxone-v1.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "680d375a93334fb23c0170b54bdb020947e8354eed4591dcc1424e8372a204fb"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.47/ctxone-v0.9.47-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fb8989f32ca2e79f91ed1b60c80fc62d1a3c2fc013871e88d21e8a45e9235aa0"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.1/ctxone-v1.0.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8d4952958efdef38bb3d5abeb66e349d3e48b539ffc4505028287031c28b157f"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v0.9.47/ctxone-v0.9.47-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f64c6979887ddc6ddc1e843d13c29f409681d2fdb9822fcebffb36ddc6d36390"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.1/ctxone-v1.0.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "cc8a97be1db91911dfe75f1f5d04965b51e4c20f4a24be3ba6e8046b1211cd20"
     end
   end
 
