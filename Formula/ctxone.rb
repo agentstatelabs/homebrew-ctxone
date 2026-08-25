@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.0.1"
+  version "1.0.2"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.1/ctxone-v1.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "a20c35328574bba771a736dbcf41d34c1a0770fe21c339d5fe86fb65fd352f57"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.2/ctxone-v1.0.2-aarch64-apple-darwin.tar.gz"
+      sha256 "9340f6abf3821c458509717f66f602d5c3bb84166e243f8af658d5e7adac4167"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.1/ctxone-v1.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "680d375a93334fb23c0170b54bdb020947e8354eed4591dcc1424e8372a204fb"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.2/ctxone-v1.0.2-x86_64-apple-darwin.tar.gz"
+      sha256 "ac1c9e8dd72a612f1336bf26ef361cb24065704f5d50083e70bcdc24a2e89777"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.1/ctxone-v1.0.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8d4952958efdef38bb3d5abeb66e349d3e48b539ffc4505028287031c28b157f"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.2/ctxone-v1.0.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "db876202a2d19baa971bb97b0caab36b90a5018a29140dff04b2feb25ba212ea"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.1/ctxone-v1.0.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cc8a97be1db91911dfe75f1f5d04965b51e4c20f4a24be3ba6e8046b1211cd20"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.2/ctxone-v1.0.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9df4cc5743c5822a8f359301fdf3c5ed55e24b5f1568e226f552d541d3d18ba0"
     end
   end
 
