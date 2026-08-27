@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.0.7"
+  version "1.0.8"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.7/ctxone-v1.0.7-aarch64-apple-darwin.tar.gz"
-      sha256 "5e52d83b74ddea1281f13556de1f76f32f6a81721a725402167810e01936e234"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.8/ctxone-v1.0.8-aarch64-apple-darwin.tar.gz"
+      sha256 "2b72eeaa10d3636e7fe8c7e946345025cb7b6ccae04f8d9f051bee8241ba25d2"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.7/ctxone-v1.0.7-x86_64-apple-darwin.tar.gz"
-      sha256 "fba01fdae7d9f0822c17af1db53bf9033d0315504dd60618124c4dd2782b174d"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.8/ctxone-v1.0.8-x86_64-apple-darwin.tar.gz"
+      sha256 "b74a0a6bc86ddf6b6df53b1bc63463686cce667d5464f6876b3aa686af99fa5a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.7/ctxone-v1.0.7-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cd7f2bc69606e05369243acba0bb9c0a1c095ad8f2f1b251592d677fd74c43e5"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.8/ctxone-v1.0.8-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "37ebd5e8c2f4f5a72248c36feeca9aece93f9d1512bba80447063363b9653c6f"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.7/ctxone-v1.0.7-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "71b73efb3d332d8da961a300700743c91859f497a9250927f893994368d7de9c"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.8/ctxone-v1.0.8-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "053d1c0f499a5172dfc52fc0d8e06666ab1df82e98d4d88cde2dd90604e0253b"
     end
   end
 
