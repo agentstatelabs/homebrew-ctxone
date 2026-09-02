@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.0.9"
+  version "1.0.10"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.9/ctxone-v1.0.9-aarch64-apple-darwin.tar.gz"
-      sha256 "b21a4fe96072a7390ddd56c5b0e620044d6b4d9f0e4b8d145ade12ef6ab79ed8"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.10/ctxone-v1.0.10-aarch64-apple-darwin.tar.gz"
+      sha256 "b8009c41c2a251628ec8d347bb72575c3324c9268c9f0eb4f25908ee2e50c279"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.9/ctxone-v1.0.9-x86_64-apple-darwin.tar.gz"
-      sha256 "5d292c386b39ff19824cd405b33da98785e3f050586b88f1a0cdf2cfea176761"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.10/ctxone-v1.0.10-x86_64-apple-darwin.tar.gz"
+      sha256 "0f00e4faa1e01f8a67a51576833027f08e37a0c51909bcf74fe3ed5aeec207f8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.9/ctxone-v1.0.9-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a5ff889e382f7faa43d356beb2acf8becf4a08e4cd82bb19f58e208c11f428e0"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.10/ctxone-v1.0.10-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6e32c0feb99640831e6409495a128940cb507e68381d9ee10b2d50da879fac6b"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.9/ctxone-v1.0.9-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "215fca752cdc59d7314d26b5347ac6dc7c3c8a12ad8a447acfb630820a5c4ef2"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.10/ctxone-v1.0.10-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4fa4da6b8361b837473be303bbb82d42bb05bd1952361918388ade9b2cc2fe7e"
     end
   end
 
