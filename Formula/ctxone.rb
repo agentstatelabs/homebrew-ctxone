@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.0.11"
+  version "1.0.12"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.11/ctxone-v1.0.11-aarch64-apple-darwin.tar.gz"
-      sha256 "ca705022a8b8404d2b520f6597597d1cbbb7360d6183e94b49c61ce390302694"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.12/ctxone-v1.0.12-aarch64-apple-darwin.tar.gz"
+      sha256 "80256d6af1d6c9ad5abdfe15cc3b3058e430eac914be6ad1a17559494f04cd89"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.11/ctxone-v1.0.11-x86_64-apple-darwin.tar.gz"
-      sha256 "e773dd1de2995a34bdd73305f7cccfce3210e3c040d7a820ad4fc19219ffb577"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.12/ctxone-v1.0.12-x86_64-apple-darwin.tar.gz"
+      sha256 "ed4e0525cd6f655a84e5fde3bd0cddca7e0c50826a734b59240280e3ec3a57b9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.11/ctxone-v1.0.11-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2f71e1e679389a02be6ce27f055573e5fd4abeb9b31f30dafeb6c9b9b7a53733"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.12/ctxone-v1.0.12-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a473ce979a0ac53834c8ef61511710924a05fb83529bc6aecdc33ba4c0997c34"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.11/ctxone-v1.0.11-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b4bde83ffea8b4b829621477e9661699780f9a493ecbb328d4a9d766f205eb86"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.12/ctxone-v1.0.12-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5ffc8e528195c715022a6796035386374cc4119dd0bd2fb04636e0bf613732df"
     end
   end
 
