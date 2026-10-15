@@ -4,6 +4,10 @@ publish-github:
   image: alpine:latest
   rules:
     - if: '$CI_COMMIT_BRANCH == "main" && $GITHUB_REPO'
+  # Never mirror a push that lowers a formula's version; see version-guard.
+  needs:
+    - ci-guard
+    - version-guard
   variables:
     GIT_DEPTH: 0
   before_script:
@@ -27,3 +31,25 @@ ci-guard:
         echo "ERROR: GITHUB_REPO unset -> publish-github will NOT run"; exit 1
       fi
       echo "publish-github target: $GITHUB_REPO"
+# version-guard: fails a push to main that LOWERS a formula's version, so
+# publish-github, which needs it, never mirrors a downgrade to the GitHub tap
+# that `brew` reads. Re-running a release tag cut before the product repo's
+# forward-only guard does exactly that: the tag's own publish-homebrew.sh
+# rewrites the formula unconditionally. Also runs in merge request pipelines,
+# against the target branch.
+#
+# Deliberate rollback: end a pushed commit's message with the trailer
+# `Allow-Downgrade: <version>`, or run a pipeline on main with the variable
+# TAP_ALLOW_DOWNGRADE=<version>. Details in scripts/version-guard.py.
+version-guard:
+  stage: test
+  image: alpine:latest
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+  variables:
+    GIT_DEPTH: 0
+  before_script:
+    - apk add --no-cache git python3
+  script:
+    - python3 scripts/version-guard.py
