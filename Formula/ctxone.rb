@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.0.15"
+  version "1.1.0"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.15/ctxone-v1.0.15-aarch64-apple-darwin.tar.gz"
-      sha256 "0f09a61d8499cd48e4d3370f958fccce5b94392f4ecbd878d9d8bf4b03b2f04d"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.1.0/ctxone-v1.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5e75cc47819fae1508bf87485eb8940f17837caeb7c6d438bc4275a42f548afe"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.15/ctxone-v1.0.15-x86_64-apple-darwin.tar.gz"
-      sha256 "c254ec76306c0d12d9fef028b98c4cc9d038c03635df636843e6eba62d4a54e3"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.1.0/ctxone-v1.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ca01e8b7098bdf480e95c12970dd1d2f7c55f14b6e342482b01f03da1e273cd1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.15/ctxone-v1.0.15-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "56b11dfd088e08cefb8752c730c74324072fa49f3df2f8de29d51075dee049d9"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.1.0/ctxone-v1.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "285883236a1c273a8d14325be692d0648a9c859f7caf223ae3978bcb380ec6f8"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.0.15/ctxone-v1.0.15-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5da6bb337aab77aa0f1c89c0f2d110e3adae61bbd9373001b8769f9fa1f63ab7"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.1.0/ctxone-v1.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a3b3f389dab3be1709749be689d472a3ee5018b403b0a3d8a202f31013d72f27"
     end
   end
 
