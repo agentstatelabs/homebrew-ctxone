@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.1.0"
+  version "1.2.0"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.1.0/ctxone-v1.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5e75cc47819fae1508bf87485eb8940f17837caeb7c6d438bc4275a42f548afe"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.0/ctxone-v1.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "706f542038e8daa52b6c6f8ad4ae167e1e44938dd955cec7e2add78274374ddc"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.1.0/ctxone-v1.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ca01e8b7098bdf480e95c12970dd1d2f7c55f14b6e342482b01f03da1e273cd1"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.0/ctxone-v1.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "70b77ef5e14ea6d58f0793a6043e42fbed422a116a742aa9bfcf5e51639f9be1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.1.0/ctxone-v1.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "285883236a1c273a8d14325be692d0648a9c859f7caf223ae3978bcb380ec6f8"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.0/ctxone-v1.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c9d9913bebc00c7d762b5f5b4119ac35561f82e6f1552ea97acf71668c81df1f"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.1.0/ctxone-v1.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a3b3f389dab3be1709749be689d472a3ee5018b403b0a3d8a202f31013d72f27"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.0/ctxone-v1.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9cf12456e21bba869e38f9717ea6a4c198acaf6a1932693a358994031a63e277"
     end
   end
 
