@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.2.1"
+  version "1.2.2"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.1/ctxone-v1.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "59ff1333055dd17b6ac331b5b73dc02cf8659f4029de9c46373fc0c0a5927f9f"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.2/ctxone-v1.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "4af6cfae2f6480553b12ab5b509bc231965a7a206803571d87721d6e0b9cd23a"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.1/ctxone-v1.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "a3d4c12490192bc6ae90c18fd12e02b4490441f2a8260b947f6796f87d20151f"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.2/ctxone-v1.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "6d24d7e294984ba7948e3fc26000f4f18213a7ca41ada52c73beb5609801ea02"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.1/ctxone-v1.2.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d0de9166bebc95c46ac833e741b9b4d4c4b95347dc2cb4b78cf29b4c1fdd6c04"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.2/ctxone-v1.2.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0521d4c841a33a010b3f95b1da7d83086a4ed0948e32bd51b21b35e31febbd19"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.1/ctxone-v1.2.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8c5fa30fcc0a58941f675e51c5d960b68f0f2cde2da241d9e655577d289a49d6"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.2/ctxone-v1.2.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2809abfe4835e360e6c65697c9bb24ad8b0dec054f23da28c48ff3ba42c60ebc"
     end
   end
 
