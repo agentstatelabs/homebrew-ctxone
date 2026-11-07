@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.2.2"
+  version "1.3.0"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.2/ctxone-v1.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "4af6cfae2f6480553b12ab5b509bc231965a7a206803571d87721d6e0b9cd23a"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.0/ctxone-v1.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a86a703f2c5cee0abe117380b80808d168fc531aae4fa51c309ed734931513fc"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.2/ctxone-v1.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "6d24d7e294984ba7948e3fc26000f4f18213a7ca41ada52c73beb5609801ea02"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.0/ctxone-v1.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fe1302fd4e7dec47f03299919c8984d7e13cd80c3134c11dbc1c9bb7adda73d6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.2/ctxone-v1.2.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0521d4c841a33a010b3f95b1da7d83086a4ed0948e32bd51b21b35e31febbd19"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.0/ctxone-v1.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "98cad780c55986c4a06ed0b0714065c49a453e321880d5c2158c485d7b58ae2e"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.2.2/ctxone-v1.2.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2809abfe4835e360e6c65697c9bb24ad8b0dec054f23da28c48ff3ba42c60ebc"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.0/ctxone-v1.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "975f297ad468b72e4cae1c814cebb94ba2544c85cf118f357a14ed423a0652c8"
     end
   end
 
