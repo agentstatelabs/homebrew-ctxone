@@ -3,28 +3,28 @@
 class Ctxone < Formula
   desc "Persistent, searchable, accountable memory for AI agents"
   homepage "https://github.com/agentstatelabs/ctxone"
-  version "1.3.0"
+  version "1.3.1"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.0/ctxone-v1.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a86a703f2c5cee0abe117380b80808d168fc531aae4fa51c309ed734931513fc"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.1/ctxone-v1.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "29b4669ce062aaf3d5d7a607672cb038dc72322b31590642912b901df24a43c4"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.0/ctxone-v1.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "fe1302fd4e7dec47f03299919c8984d7e13cd80c3134c11dbc1c9bb7adda73d6"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.1/ctxone-v1.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "fee58d7526c8c80aea2ab89e1afc03a1771c289dfc0df8f0d5bd576decef453b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.0/ctxone-v1.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "98cad780c55986c4a06ed0b0714065c49a453e321880d5c2158c485d7b58ae2e"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.1/ctxone-v1.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2b2ebd33fec5863fa1111a9b9670204d55cfa5e0de43eafc451c67fc56f7e54e"
     end
     on_arm do
-      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.0/ctxone-v1.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "975f297ad468b72e4cae1c814cebb94ba2544c85cf118f357a14ed423a0652c8"
+      url "https://github.com/agentstatelabs/ctxone-releases/releases/download/v1.3.1/ctxone-v1.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "56125028070937cd0aee666c40ce617d765857c13401e96574c21fb2e03d23b7"
     end
   end
 
